@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Press the button</title>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>Press a Button</h2>
+        <div id="container">
+            <div></div>
+            <div class="switch">
+                <label id="switch">
+                    <input type="checkbox" onChange ="switchChange()" name="lights">
+                    <span id="slider"></span>
+                </label>
+            </div>
+            <div></div><div></div>
+            <div class="change">
+                <button id="button-29" role="button" 
+                    onClick="change()">Colors</button>
+            </div>
+            <div></div><div></div>
+            <div class="summonLocation">
+                <button onclick="summon()" id="summonLocation">Move</button>
+            </div>
+        </div>
+    </body>
+</html>
+
